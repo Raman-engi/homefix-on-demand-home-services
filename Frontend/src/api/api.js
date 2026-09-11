@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Get backend URL from environment variables, fallback to live backend
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://homefix-on-demand-home-services.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
